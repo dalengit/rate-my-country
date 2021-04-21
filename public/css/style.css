@@ -1,0 +1,47 @@
+/*Home Page*/
+html body{
+    min-height: 100%;
+    min-width: 100%;
+    background: linear-gradient(0.25turn, palegreen, lightseagreen);
+    height: 100vh;
+    padding: 15px 20px 0 20px;
+}
+
+.home-text h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0 0 20px;
+}
+
+.home-text p {
+    font-size: 17px;
+    line-height: 35px;
+    padding: 20px 0 20px 0;
+}
+
+.home-img {
+    max-width: 500px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.home-img img {
+    width: 100%;
+}
+
+/*Submissions*/
+
+.card {
+    background-color: whitesmoke;
+}
+@media only screen and (min-width: 768px) {
+
+    .home-text {
+        padding-top: 100px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .home-img {
+        padding-top: 40px;
+    }
+}

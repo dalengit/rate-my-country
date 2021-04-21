@@ -5,50 +5,33 @@
 <head>
 
     <?php include 'templates/header.php'?>
-    <title>Submit Your Mug</title>
+    <title>Rate Your Country!</title>
 
 </head>
 <body>
-
 <!-- Navigation bar -->
 <?php include 'templates/navbar.php'?>
 
-<!-- Hero -->
-<div class="container p-5">
-    <div class="jumbotron align-self-center">
-        <h1 class="display-4">Hello, world!</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-        <hr class="my-4">s
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <p class="lead">
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-        </p>
-    </div>
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="..." alt="First slide">
+<section class="home">
+    <div class="container text-center py-5">
+        <div class="row">
+            <div class="col-md-7">
+            <div class="home-text">
+                <h1>Lorem Ipsum</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aperiam, doloremque eveniet explicabo labore obcaecati officia possimus rerum vel voluptates!</p>
+                <div class="home-btn">
+                    <a href="submission.php" class="btn btn-outline-dark">Rate Your Country!</a>
+                </div>
             </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="..." alt="Second slide">
             </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="..." alt="Third slide">
+            <div class="col-md-5 col-sm-4">
+                <div class="home-img">
+                    <img src="/project/images/marginalia-1196.png" alt="">
+                </div>
             </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
     </div>
-</div>
-
-
-
+</section>
 <?php include 'templates/footer.php'?>
 </body>
 </html>

@@ -52,7 +52,7 @@ $checkins = $stmt->fetchAll(PDO::FETCH_CLASS, checkIn::class);
 <head>
 
     <?php include 'templates/header.php'?>
-    <title>Submit Your Mug</title>
+    <title>Rate your Country!</title>
 
 </head>
 <body>
@@ -60,23 +60,21 @@ $checkins = $stmt->fetchAll(PDO::FETCH_CLASS, checkIn::class);
 <!-- Navigation bar -->
 <?php include 'templates/navbar.php'?>
 
-<div class="container">
-    <h1>Submit Your Mug!</h1>
+<div class="container py-5">
+    <div class="row">
+        <div class="col-md-4">
+    <h1>Submit Your Country!</h1>
     <?php if ($productAddedSuccess): ?>
-        <p class="alert alert-success">Product Added Successfully!</p>
+        <p class="alert alert-success">Submitted successfully!</p>
     <?php endif; ?>
     <form action="" method="post" enctype="multipart/form-data">
-        <div class="form-group">
-            <label for="picture">Upload a Picture</label>
-            <input class="form-control" type="file" name="files[]" id="picture">
-        </div>
         <div class="form-group">
             <label for="user-name">Name:</label>
             <input class="form-control" type="text" name="name" id="user-name">
         </div>
         <div class="form-group">
             <input type="hidden" id="1" value="1" name="productid">
-            <label for="product-name">Mug Name:</label>
+            <label for="product-name">Country:</label>
             <input class="form-control" type="text" name="mugname" id="product-name">
         </div>
         <div class="form-group">
@@ -97,22 +95,21 @@ $checkins = $stmt->fetchAll(PDO::FETCH_CLASS, checkIn::class);
         <button type="submit" name="submit" value="upload" class="btn btn-success">Submit</button>
         </div>
     </form>
-</div>
-
-<div class="container">
-    <!-- Loop which iterates through the local checkins array outputting all fields -->
-    <?php foreach ($checkins as $i => $checkIn): ?>
-        <div class="card my-4 p-3">
-            <h4><?= $checkIn->name; ?></h4>
-            <p>Mug Name: <?= $checkIn->mugname; ?></p>
-            <p>Rating: <?= $checkIn->rating; ?></p>
-            <p>Review: <?= $checkIn->review; ?></p>
-            <aside>Date Posted: <?= $checkIn->submitted; ?></aside>
         </div>
-    <?php endforeach; ?>
+        <div class="col-md-8 px-5 mx-auto">
+            <!-- Loop which iterates through the local checkins array outputting all fields -->
+            <?php foreach ($checkins as $i => $checkIn): ?>
+                <div class="card my-4 p-3 border-0">
+                    <h4><?= $checkIn->name; ?></h4>
+                    <p>Mug Name: <?= $checkIn->mugname; ?></p>
+                    <p>Rating: <?= $checkIn->rating; ?></p>
+                    <p>Review: <?= $checkIn->review; ?></p>
+                    <aside>Date Posted: <?= $checkIn->submitted; ?></aside>
+                </div>
+            <?php endforeach; ?>
+        </div>
+    </div>
 </div>
-
-
 
 <?php include 'templates/footer.php'?>
 
