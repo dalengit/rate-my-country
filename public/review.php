@@ -1,24 +1,10 @@
 <?php
 
 require_once '../src/DataProvider/db.php';
+require_once  '../src/classes/checkIn.php';
 
 //Pull from DB and Hydrate Class
-
 $id = '1';
-
-class checkIn
-{
-    public int $id;
-    public int $productid;
-    public string $name;
-    public string $country;
-    public string $food;
-    public string $weather;
-    public string $people;
-    public string $review;
-    public int $overall;
-    public string $submitted;
-}
 
 $stmt = $conn->prepare('SELECT id, productid, name, country, food, weather, people, review, overall, submitted FROM `checkins` WHERE `productid` = :id');
 $stmt->execute(['id' => $id]);
@@ -43,7 +29,7 @@ $checkins = $stmt->fetchAll(PDO::FETCH_CLASS, checkIn::class);
         </div>
     </div>
 </div>
-<div class="row">
+<div class="row m-5 px-5">
             <!-- Loop which iterates through the local checkins array outputting all fields -->
             <?php foreach ($checkins as $i => $checkIn): ?>
                 <div class="card my-4 p-3 border-2 mx-auto" style="width: 20rem;">
