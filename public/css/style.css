@@ -52,6 +52,34 @@ html body{
 .form-group {
     padding: 2px 0 10px 0;
 }
+
+/*About*/
+.about-text h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0 0 30px 0;
+}
+
+.about-text h6 {
+    font-size: 28px;
+}
+
+.about-text p {
+    font-size: 17px;
+    line-height: 35px;
+    padding: 20px 0 20px 0;
+}
+
+.about-img {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.about-img img {
+    width: 100%;
+    border-radius: 30%;
+}
 @media only screen and (min-width: 768px) {
 
     .home-text {
@@ -60,7 +88,7 @@ html body{
         margin: 0 auto;
     }
     .home-img {
-        padding-top: 40px;
+        padding-top: 80px;
     }
 
     /*Submission*/
@@ -68,4 +96,14 @@ html body{
         padding: 0;
     }
 
+    /*About*/
+    .about-text {
+        padding-top: 140px;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .about-img {
+        padding-top: 80px;
+    }
 }

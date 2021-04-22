@@ -13,9 +13,10 @@ if (!empty($_POST)){
     $weather = $_POST['weather'];
     $people = $_POST['people'];
     $review = $_POST['review'];
+    $overall = $_POST['overall'];
 
 
-    $stmt = $conn->prepare('INSERT INTO checkins (name, productid, country, food, weather, people, review) VALUES (:name, :productid, :country, :food, :weather, :people, :review)');
+    $stmt = $conn->prepare('INSERT INTO checkins (name, productid, country, food, weather, people, review, overall) VALUES (:name, :productid, :country, :food, :weather, :people, :review, :overall)');
 
     $stmt->execute([
         'name' => $name,
@@ -24,7 +25,8 @@ if (!empty($_POST)){
         'food' => $food,
         'weather' => $weather,
         'people' => $people,
-        'review' => $review
+        'review' => $review,
+        'overall' => $overall
     ]);
 
     $productAddedSuccess = true;
@@ -52,11 +54,11 @@ if (!empty($_POST)){
                 <p class="alert alert-light">Submitted successfully!</p>
             <?php endif; ?>
             <form action="" method="post" enctype="multipart/form-data">
-                <div class="form-group">
+                <div class="form-group my-1">
                     <label class="label" for="user-name">Your Name</label>
-                    <input class="form-control" type="text" name="name" id="user-name" placeholder="Salvador Dali">
+                    <input class="form-control" type="text" name="name" id="user-name" placeholder="Salvador Dali" required="required">
                 </div>
-                <div class="form-group">
+                <div class="form-group my-1">
                     <input type="hidden" id="1" value="1" name="productid">
                     <label class="label" for="product-rating">Country</label>
                     <select class="form-control" id="product-rating" name="country">
@@ -308,46 +310,47 @@ if (!empty($_POST)){
                         <option value="Zimbabwe">Zimbabwe</option>
                     </select>
                 </div>
-                <div class="row mx-auto">
+                <div class="row mx-auto my-1">
                     <div class="form-group col-md-4 px-1">
                         <label class="label" for="product-rating">Food</label>
                         <select class="form-control" id="product-rating" name="food">
-                            <option>Not Tasty &#x1F92E</option>
-                            <option>It's ok..</option>
-                            <option>Pretty nice</option>
-                            <option>Really tasty! &#x1F44D</option>
-                            <option>The best food ever! &#x1F44C</option>
+                            <option>Rubbish &#x1F92E</option>
+                            <option>Okay.. &#x1F914</option>
+                            <option>Pretty nice &#x1F44D</option>
+                            <option>Amazing! &#x1F924</option>
                         </select>
                     </div>
                     <div class="form-group col-md-4 px-1">
                         <label class="label" for="product-rating">Weather</label>
                         <select class="form-control" id="product-rating" name="weather">
-                            <option>Too Chilly</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
+                            <option>Too Chilly &#x1F976</option>
+                            <option>Just Right &#x1F60C</option>
+                            <option>Too Hot &#x1F975</option>
                         </select>
                     </div>
                     <div class="form-group col-md-4 px-1">
                         <label class="label" for="product-rating">People</label>
                         <select class="form-control" id="product-rating" name="people">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                            <option>6</option>
-                            <option>7</option>
-                            <option>8</option>
-                            <option>9</option>
-                            <option>10</option>
+                            <option>Mean &#x1F92C</option>
+                            <option>Nice..&#x1F610</option>
+                            <option>Friendly &#x1F917</option>
+                            <option>So Nice! &#x1F929</option>
                         </select>
                     </div>
                 </div>
-                <div class="form-group">
-                    <label class="label" for="product-review">Give your home a compliment!</label>
-                    <textarea class="form-control" name="review" id="product-review" cols="30" rows="10" placeholder="I love the food here!"></textarea>
+                <div class="form-group my-1">
+                    <label class="label" for="product-rating">Overall Rating</label>
+                    <select class="form-control" id="product-rating" name="overall">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+                <div class="form-group my-1">
+                    <label class="label" for="product-review">Give your home a compliment! (or not).</label>
+                    <textarea class="form-control" name="review" id="product-review" cols="30" rows="5" placeholder="I love the food here! (But I hate the people!) &#x1F633" required="required"></textarea>
                 </div>
                 <div class="form-group">
                     <button type="submit" name="submit" value="upload" class="btn btn-outline-dark">Submit</button>
