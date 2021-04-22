@@ -11,13 +11,15 @@ class checkIn
     public int $id;
     public int $productid;
     public string $name;
-    public string $mugname;
-    public int $rating;
+    public string $country;
+    public string $food;
+    public string $weather;
+    public string $people;
     public string $review;
     public string $submitted;
 }
 
-$stmt = $conn->prepare('SELECT id, productid, name, mugname, rating, review, submitted FROM `rmm` WHERE `productid` = :id');
+$stmt = $conn->prepare('SELECT id, productid, name, country, food, weather, people, review, submitted FROM `checkins` WHERE `productid` = :id');
 $stmt->execute(['id' => $id]);
 
 $checkins = $stmt->fetchAll(PDO::FETCH_CLASS, checkIn::class);
@@ -44,9 +46,12 @@ $checkins = $stmt->fetchAll(PDO::FETCH_CLASS, checkIn::class);
             <!-- Loop which iterates through the local checkins array outputting all fields -->
             <?php foreach ($checkins as $i => $checkIn): ?>
                 <div class="card my-4 p-3 border-2 mx-auto" style="width: 20rem;">
-                    <h4><?= $checkIn->mugname; ?></h4>
+                    <h4><?= $checkIn->country; ?></h4>
                     <p>Mug Name: <?= $checkIn->name; ?></p>
-                    <p>Rating: <?= $checkIn->rating; ?></p>
+                    <p>Rating: <?= $checkIn->country; ?></p>
+                    <p>Review: <?= $checkIn->food; ?></p>
+                    <p>Review: <?= $checkIn->weather; ?></p>
+                    <p>Review: <?= $checkIn->people; ?></p>
                     <p>Review: <?= $checkIn->review; ?></p>
                     <aside>Date Posted: <?= $checkIn->submitted; ?></aside>
                 </div>
