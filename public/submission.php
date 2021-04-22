@@ -25,27 +25,6 @@ if (!empty($_POST)){
 
     $productAddedSuccess = true;
 }
-
-//Pull from DB and Hydrate Class
-
-$id = '1';
-
-class checkIn
-{
-    public int $id;
-    public int $productid;
-    public string $name;
-    public string $mugname;
-    public int $rating;
-    public string $review;
-    public string $submitted;
-}
-
-$stmt = $conn->prepare('SELECT id, productid, name, mugname, rating, review, submitted FROM `rmm` WHERE `productid` = :id');
-$stmt->execute(['id' => $id]);
-
-$checkins = $stmt->fetchAll(PDO::FETCH_CLASS, checkIn::class);
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -60,25 +39,25 @@ $checkins = $stmt->fetchAll(PDO::FETCH_CLASS, checkIn::class);
 <!-- Navigation bar -->
 <?php include 'templates/navbar.php'?>
 
-<div class="container py-5">
+<div class="container py-3">
     <div class="row">
-        <div class="col-md-4">
-    <h1>Submit Your Country!</h1>
+        <div class="col-md-4 mx-auto">
+    <h2>Submit Your Country!</h2>
     <?php if ($productAddedSuccess): ?>
-        <p class="alert alert-success">Submitted successfully!</p>
+        <p class="alert alert-light">Submitted successfully!</p>
     <?php endif; ?>
     <form action="" method="post" enctype="multipart/form-data">
         <div class="form-group">
-            <label for="user-name">Name:</label>
-            <input class="form-control" type="text" name="name" id="user-name">
+            <label class="label" for="user-name">Your Name</label>
+            <input class="form-control" type="text" name="name" id="user-name" placeholder="Salvador Dali">
         </div>
         <div class="form-group">
             <input type="hidden" id="1" value="1" name="productid">
-            <label for="product-name">Country:</label>
-            <input class="form-control" type="text" name="mugname" id="product-name">
+            <label class="label" for="product-name">Country</label>
+            <input class="form-control" type="text" name="mugname" id="product-name" placeholder="France">
         </div>
         <div class="form-group">
-            <label for="product-rating">Rating:</label>
+            <label class="label" for="product-rating">Rating</label>
             <select class="form-control" id="product-rating" name="rating">
                 <option>1</option>
                 <option>2</option>
@@ -88,29 +67,16 @@ $checkins = $stmt->fetchAll(PDO::FETCH_CLASS, checkIn::class);
             </select>
         </div>
         <div class="form-group">
-            <label for="product-review">Review:</label>
-            <textarea class="form-control" name="review" id="product-review" cols="30" rows="10"></textarea>
+            <label class="label" for="product-review">Give your home a compliment!</label>
+            <textarea class="form-control" name="review" id="product-review" cols="30" rows="10" placeholder="I love the food here!"></textarea>
         </div>
         <div class="form-group">
-        <button type="submit" name="submit" value="upload" class="btn btn-success">Submit</button>
+        <button type="submit" name="submit" value="upload" class="btn btn-outline-dark">Submit</button>
+            <a href="review.php" class="btn btn-outline-dark">See Your Review</a>
         </div>
     </form>
         </div>
-        <div class="col-md-8 px-5 mx-auto">
-            <!-- Loop which iterates through the local checkins array outputting all fields -->
-            <?php foreach ($checkins as $i => $checkIn): ?>
-                <div class="card my-4 p-3 border-0">
-                    <h4><?= $checkIn->name; ?></h4>
-                    <p>Mug Name: <?= $checkIn->mugname; ?></p>
-                    <p>Rating: <?= $checkIn->rating; ?></p>
-                    <p>Review: <?= $checkIn->review; ?></p>
-                    <aside>Date Posted: <?= $checkIn->submitted; ?></aside>
-                </div>
-            <?php endforeach; ?>
-        </div>
-    </div>
 </div>
-
 <?php include 'templates/footer.php'?>
 
 </body>

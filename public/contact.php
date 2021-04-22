@@ -14,11 +14,10 @@
 <?php include 'templates/navbar.php'?>
 
 <!-- Form -->
-<div class="container-fluid">
-    <div class="row align-items-center">
+<div class="container">
+    <div class="row">
     <form id="contact-form" method="post" action="contact.php" role="form">
     <div class="controls">
-
         <div class="row">
             <div class="col-md-3">
                 <div class="form-group">

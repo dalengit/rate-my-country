@@ -2,13 +2,13 @@
 html body{
     min-height: 100%;
     min-width: 100%;
-    background: linear-gradient(0.25turn, palegreen, lightseagreen);
+    background: linear-gradient(0.25turn, #aaffa9, #11ffbd);
     height: 100vh;
     padding: 15px 20px 0 20px;
 }
 
 .home-text h1 {
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 700;
     margin: 0 0 20px;
 }
@@ -20,8 +20,8 @@ html body{
 }
 
 .home-img {
-    max-width: 500px;
-    width: 80%;
+    max-width: 400px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -32,16 +32,40 @@ html body{
 /*Submissions*/
 
 .card {
-    background-color: whitesmoke;
+    background-color: transparent;
+    border-color: white;
+}
+
+.label {
+    padding-bottom: 5px;
+}
+
+.recent-heading {
+    padding-top: 20px;
+}
+.form-control {
+    background-color: transparent;
+    border-color: white;
+    border-width: 2px;
+}
+
+.form-group {
+    padding: 2px 0 10px 0;
 }
 @media only screen and (min-width: 768px) {
 
     .home-text {
-        padding-top: 100px;
+        padding-top: 150px;
         width: 80%;
         margin: 0 auto;
     }
     .home-img {
         padding-top: 40px;
     }
+
+    /*Submission*/
+    .recent-heading {
+        padding: 0;
+    }
+
 }
