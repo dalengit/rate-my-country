@@ -1,0 +1,249 @@
+Andorra	&#x1F1E9
+United Arab Emirates	&#x1F1EA
+Afghanistan	&#x1F1EB
+Antigua and Barbuda	&#x1F1EC
+Anguilla	&#x1F1EE
+Albania	&#x1F1F1
+Armenia	&#x1F1F2
+Angola	&#x1F1F4
+Antarctica	&#x1F1F6
+Argentina	&#x1F1F7
+American Samoa	&#x1F1F8
+Austria	&#x1F1F9
+Australia	&#x1F1FA
+Aruba	&#x1F1FC
+Åland Islands	&#x1F1FD
+Azerbaijan	&#x1F1FF
+Bosnia and Herzegovina	&#x1F1E6
+Barbados	&#x1F1E7
+Bangladesh	&#x1F1E9
+Belgium	&#x1F1EA
+Burkina Faso	&#x1F1EB
+Bulgaria	&#x1F1EC
+Bahrain	&#x1F1ED
+Burundi	&#x1F1EE
+Benin	&#x1F1EF
+Saint Barthélemy	&#x1F1F1
+Bermuda	&#x1F1F2
+Brunei Darussalam	&#x1F1F3
+Bolivia	&#x1F1F4
+"Bonaire, Sint Eustatius and Saba"	&#x1F1F6
+Brazil	&#x1F1F7
+Bahamas	&#x1F1F8
+Bhutan	&#x1F1F9
+Bouvet Island	&#x1F1FB
+Botswana	&#x1F1FC
+Belarus	&#x1F1FE
+Belize	&#x1F1FF
+Canada	&#x1F1E6
+Cocos (Keeling) Islands	&#x1F1E8
+Congo	&#x1F1E9
+Central African Republic	&#x1F1EB
+Congo	&#x1F1EC
+Switzerland	&#x1F1ED
+Côte D'Ivoire	&#x1F1EE
+Cook Islands	&#x1F1F0
+Chile	&#x1F1F1
+Cameroon	&#x1F1F2
+China	&#x1F1F3
+Colombia	&#x1F1F4
+Costa Rica	&#x1F1F7
+Cuba	&#x1F1FA
+Cape Verde	&#x1F1FB
+Curaçao	&#x1F1FC
+Christmas Island	&#x1F1FD
+Cyprus	&#x1F1FE
+Czech Republic	&#x1F1FF
+Germany	&#x1F1EA
+Djibouti	&#x1F1EF
+Denmark	&#x1F1F0
+Dominica	&#x1F1F2
+Dominican Republic	&#x1F1F4
+Algeria	&#x1F1FF
+Ecuador	&#x1F1E8
+Estonia	&#x1F1EA
+Egypt	&#x1F1EC
+Western Sahara	&#x1F1ED
+Eritrea	&#x1F1F7
+Spain	&#x1F1F8
+Ethiopia	&#x1F1F9
+Finland	&#x1F1EE
+Fiji	&#x1F1EF
+Falkland Islands (Malvinas)	&#x1F1F0
+Micronesia	&#x1F1F2
+Faroe Islands	&#x1F1F4
+France	&#x1F1F7
+Gabon	&#x1F1E6
+United Kingdom	&#x1F1E7
+Grenada	&#x1F1E9
+Georgia	&#x1F1EA
+French Guiana	&#x1F1EB
+Guernsey	&#x1F1EC
+Ghana	&#x1F1ED
+Gibraltar	&#x1F1EE
+Greenland	&#x1F1F1
+Gambia	&#x1F1F2
+Guinea	&#x1F1F3
+Guadeloupe	&#x1F1F5
+Equatorial Guinea	&#x1F1F6
+Greece	&#x1F1F7
+South Georgia	&#x1F1F8
+Guatemala	&#x1F1F9
+Guam	&#x1F1FA
+Guinea-Bissau	&#x1F1FC
+Guyana	&#x1F1FE
+Hong Kong	&#x1F1F0
+Heard Island and Mcdonald Islands	&#x1F1F2
+Honduras	&#x1F1F3
+Croatia	&#x1F1F7
+Haiti	&#x1F1F9
+Hungary	&#x1F1FA
+Indonesia	&#x1F1E9
+Ireland	&#x1F1EA
+Israel	&#x1F1F1
+Isle of Man	&#x1F1F2
+India	&#x1F1F3
+British Indian Ocean Territory	&#x1F1F4
+Iraq	&#x1F1F6
+Iran	&#x1F1F7
+Iceland	&#x1F1F8
+Italy	&#x1F1F9
+Jersey	&#x1F1EA
+Jamaica	&#x1F1F2
+Jordan	&#x1F1F4
+Japan	&#x1F1F5
+Kenya	&#x1F1EA
+Kyrgyzstan	&#x1F1EC
+Cambodia	&#x1F1ED
+Kiribati	&#x1F1EE
+Comoros	&#x1F1F2
+Saint Kitts and Nevis	&#x1F1F3
+North Korea	&#x1F1F5
+South Korea	&#x1F1F7
+Kuwait	&#x1F1FC
+Cayman Islands	&#x1F1FE
+Kazakhstan	&#x1F1FF
+Lao People's Democratic Republic	&#x1F1E6
+Lebanon	&#x1F1E7
+Saint Lucia	&#x1F1E8
+Liechtenstein	&#x1F1EE
+Sri Lanka	&#x1F1F0
+Liberia	&#x1F1F7
+Lesotho	&#x1F1F8
+Lithuania	&#x1F1F9
+Luxembourg	&#x1F1FA
+Latvia	&#x1F1FB
+Libya	&#x1F1FE
+Morocco	&#x1F1E6
+Monaco	&#x1F1E8
+Moldova	&#x1F1E9
+Montenegro	&#x1F1EA
+Saint Martin (French Part)	&#x1F1EB
+Madagascar	&#x1F1EC
+Marshall Islands	&#x1F1ED
+Macedonia	&#x1F1F0
+Mali	&#x1F1F1
+Myanmar	&#x1F1F2
+Mongolia	&#x1F1F3
+Macao	&#x1F1F4
+Northern Mariana Islands	&#x1F1F5
+Martinique	&#x1F1F6
+Mauritania	&#x1F1F7
+Montserrat	&#x1F1F8
+Malta	&#x1F1F9
+Mauritius	&#x1F1FA
+Maldives	&#x1F1FB
+Malawi	&#x1F1FC
+Mexico	&#x1F1FD
+Malaysia	&#x1F1FE
+Mozambique	&#x1F1FF
+Namibia	&#x1F1E6
+New Caledonia	&#x1F1E8
+Niger	&#x1F1EA
+Norfolk Island	&#x1F1EB
+Nigeria	&#x1F1EC
+Nicaragua	&#x1F1EE
+Netherlands	&#x1F1F1
+Norway	&#x1F1F4
+Nepal	&#x1F1F5
+Nauru	&#x1F1F7
+Niue	&#x1F1FA
+New Zealand	&#x1F1FF
+Oman	&#x1F1F2
+Panama	&#x1F1E6
+Peru	&#x1F1EA
+French Polynesia	&#x1F1EB
+Papua New Guinea	&#x1F1EC
+Philippines	&#x1F1ED
+Pakistan	&#x1F1F0
+Poland	&#x1F1F1
+Saint Pierre and Miquelon	&#x1F1F2
+Pitcairn	&#x1F1F3
+Puerto Rico	&#x1F1F7
+Palestinian Territory	&#x1F1F8
+Portugal	&#x1F1F9
+Palau	&#x1F1FC
+Paraguay	&#x1F1FE
+Qatar	&#x1F1E6
+Réunion	&#x1F1EA
+Romania	&#x1F1F4
+Serbia	&#x1F1F8
+Russia	&#x1F1FA
+Rwanda	&#x1F1FC
+Saudi Arabia	&#x1F1E6
+Solomon Islands	&#x1F1E7
+Seychelles	&#x1F1E8
+Sudan	&#x1F1E9
+Sweden	&#x1F1EA
+Singapore	&#x1F1EC
+"Saint Helena, Ascension and Tristan Da Cunha"	&#x1F1ED
+Slovenia	&#x1F1EE
+Svalbard and Jan Mayen	&#x1F1EF
+Slovakia	&#x1F1F0
+Sierra Leone	&#x1F1F1
+San Marino	&#x1F1F2
+Senegal	&#x1F1F3
+Somalia	&#x1F1F4
+Suriname	&#x1F1F7
+South Sudan	&#x1F1F8
+Sao Tome and Principe	&#x1F1F9
+El Salvador	&#x1F1FB
+Sint Maarten (Dutch Part)	&#x1F1FD
+Syrian Arab Republic	&#x1F1FE
+Swaziland	&#x1F1FF
+Turks and Caicos Islands	&#x1F1E8
+Chad	&#x1F1E9
+French Southern Territories	&#x1F1EB
+Togo	&#x1F1EC
+Thailand	&#x1F1ED
+Tajikistan	&#x1F1EF
+Tokelau	&#x1F1F0
+Timor-Leste	&#x1F1F1
+Turkmenistan	&#x1F1F2
+Tunisia	&#x1F1F3
+Tonga	&#x1F1F4
+Turkey	&#x1F1F7
+Trinidad and Tobago	&#x1F1F9
+Tuvalu	&#x1F1FB
+Taiwan	&#x1F1FC
+Tanzania	&#x1F1FF
+Ukraine	&#x1F1E6
+Uganda	&#x1F1EC
+United States Minor Outlying Islands	&#x1F1F2
+United States	&#x1F1F8
+Uruguay	&#x1F1FE
+Uzbekistan	&#x1F1FF
+Vatican City	&#x1F1E6
+Saint Vincent and The Grenadines	&#x1F1E8
+Venezuela	&#x1F1EA
+"Virgin Islands, British"	&#x1F1EC
+"Virgin Islands, U.S."	&#x1F1EE
+Viet Nam	&#x1F1F3
+Vanuatu	&#x1F1FA
+Wallis and Futuna	&#x1F1EB
+Samoa	&#x1F1F8
+Yemen	&#x1F1EA
+Mayotte	&#x1F1F9
+South Africa	&#x1F1E6
+Zambia	&#x1F1F2
+Zimbabwe	&#x1F1FC

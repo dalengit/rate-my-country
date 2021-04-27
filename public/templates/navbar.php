@@ -2,7 +2,7 @@
 <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container">
     <a class="navbar-brand" href="home.php">
-        <img src="/project/images/icon.png" width="50" height="50" class="d-inline-block align-top" alt="" style="border-radius: 50%;">
+        <img src="/project/images/icon.svg" width="50" height="50" class="d-inline-block align-top" alt="" style="border-radius: 50%;">
     </a>
         <a class="navbar-brand" href="home.php">My Country</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,9 +18,6 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="prodsearch.php">Search</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.php">About</a>
                     </li>
                 </ul>
             </div>
