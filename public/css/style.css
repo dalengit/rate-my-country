@@ -7,6 +7,13 @@ html body{
     padding: 15px 20px 0 20px;
 }
 
+#myBtn {
+    position: fixed;
+    z-index: 99;
+    bottom: 20px;
+    right: 30px;
+}
+
 .home-text h1 {
     font-size: 60px;
     font-weight: 700;
@@ -93,7 +100,7 @@ html body{
 
     /*Submission*/
     .recent-heading {
-        padding: 0;
+        padding: 20px 0 20px 0;
     }
 
     /*About*/
@@ -101,6 +108,10 @@ html body{
         padding-top: 150px;
         width: 80%;
         margin: 0 auto;
+    }
+
+    .about-text p {
+        padding-top: 30px;
     }
 
     .about-img {

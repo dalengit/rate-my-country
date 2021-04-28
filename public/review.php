@@ -22,6 +22,7 @@ $checkins = $stmt->fetchAll(PDO::FETCH_CLASS, checkIn::class);
 </head>
 <body>
 <?php include 'templates/navbar.php'?>
+<?php include 'templates/topbutton.php' ?>
 <div class="container p-3">
     <div class="row">
         <div class="col-md-12 text-center">

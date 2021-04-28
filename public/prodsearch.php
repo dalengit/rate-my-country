@@ -24,7 +24,7 @@ $checkins = $stmt->fetchAll(PDO::FETCH_CLASS, checkIn::class);
 <body class="p-4">
 <!-- Navigation bar -->
 <?php include 'templates/navbar.php'?>
-
+<?php include 'templates/topbutton.php' ?>
     <div class="container p-3">
         <div class="row">
             <div class="col-md-4 text-center mx-auto">
@@ -38,8 +38,8 @@ $checkins = $stmt->fetchAll(PDO::FETCH_CLASS, checkIn::class);
     </div>
     <div class="row m-5 px-5">
         <?php if(empty($checkins)){ ?>
-            <div class="col-md-6 mx-auto my-5 text-center">
-                <h1>&#x2620</h1>
+            <div class="col-md-6 mx-auto my-2 text-center">
+                <img src="../images/sadicon.svg" alt="" width="110" height=110">
                 <h4 class="my-3">Uh oh... looks like there are no reviews for this country.</h4>
                 <p>Why don't you leave one <a class="link-dark" href="submission.php">here!</a></p>
             </div>

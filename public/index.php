@@ -5,7 +5,7 @@ require_once  '../src/classes/checkIn.php';
 //Pull from DB and Hydrate Class
 $id = '1';
 
-$stmt = $conn->prepare('SELECT id, productid, name, country, food, weather, people, review, overall, submitted FROM `checkins` WHERE `productid` = :id ORDER BY id DESC LIMIT 3');
+$stmt = $conn->prepare('SELECT id, productid, name, country, food, weather, people, review, overall, submitted FROM `checkins` WHERE `productid` = :id ORDER BY id DESC LIMIT 4');
 $stmt->execute(['id' => $id]);
 
 $checkins = $stmt->fetchAll(PDO::FETCH_CLASS, checkIn::class);
@@ -22,7 +22,7 @@ $checkins = $stmt->fetchAll(PDO::FETCH_CLASS, checkIn::class);
 <body>
 <!-- Navigation bar -->
 <?php include 'templates/navbar.php'?>
-
+<?php include 'templates/topbutton.php' ?>
 <section class="home">
     <div class="container text-center py-5">
         <div class="row">
