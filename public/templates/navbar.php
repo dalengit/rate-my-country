@@ -1,10 +1,10 @@
 <!-- Image and text -->
 <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container">
-    <a class="navbar-brand" href="index .php">
+    <a class="navbar-brand" href="index.php">
         <img src="/project/images/icon.svg" width="50" height="50" class="d-inline-block align-top" alt="" style="border-radius: 50%;">
     </a>
-        <a class="navbar-brand" href="index .php">My Country</a>
+        <a class="navbar-brand" href="index.php">My Country</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
