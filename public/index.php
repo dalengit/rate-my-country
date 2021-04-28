@@ -68,8 +68,9 @@ $checkins = $stmt->fetchAll(PDO::FETCH_CLASS, checkIn::class);
 <section class="reviews">
     <div class="container text-center py-5 my-5">
         <div class="row">
+            <h1 class="py-2">Recent Reviews</h1>
         <?php foreach ($checkins as $i => $checkIn): ?>
-            <div class="card my-4 p-3 border-2 mx-auto" style="width: 20rem; height: 20rem;">
+            <div class="card my-5 p-4 border-2 mx-auto" style="width: 20rem; height: 20rem;">
                 <h3 class="py-2"><?= $checkIn->country; ?></h3>
                 <p>The food is <strong><?= $checkIn->food; ?></strong></p>
                 <p>The weather is <strong><?= $checkIn->weather; ?></strong></p>
@@ -79,17 +80,14 @@ $checkins = $stmt->fetchAll(PDO::FETCH_CLASS, checkIn::class);
             </div>
         <?php endforeach; ?>
         </div>
+        <div class="row">
+            <div class="home-btn">
+            <a href="review.php" class="btn btn-outline-dark mx-auto">See More!</a>
+            </div>
+        </div>
     </div>
 </section>
 
-<footer class="p-4">
-    <div class="container">
-        <div class="d-flex flex-row-reverse">
-            <a href="#"><img class="mx-3" src="../images/twitter-1239448.svg" alt="" height="25" width="25"></a>
-            <a href="#"><img class="mx-3" src="../images/facebook-1239437.svg" alt="" height="25" width="25"></a>
-            <a href="#"><img class="mx-3" src="../images/instagram-1239436.svg" alt="" height="25" width="25"></a>
-        </div>
-</footer>
 <?php include 'templates/footer.php'?>
 </body>
 </html>
