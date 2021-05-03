@@ -374,8 +374,9 @@ if (!empty($_POST)){
             </form>
         </div>
     </div>
-
+<div class="container mt-5">
 <?php include 'templates/footer.php'?>
+</div>
 </body>
 </html>
 

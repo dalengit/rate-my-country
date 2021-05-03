@@ -21,8 +21,8 @@ $checkins = $stmt->fetchAll(PDO::FETCH_CLASS, checkIn::class);
 </head>
 <body>
 <!-- Navigation bar -->
-<?php include 'templates/navbar.php'?>
 <?php include 'templates/topbutton.php' ?>
+<?php include 'templates/navbar.php'?>
 <section class="home">
     <div class="container text-center py-5">
         <div class="row">
@@ -87,7 +87,7 @@ $checkins = $stmt->fetchAll(PDO::FETCH_CLASS, checkIn::class);
         </div>
     </div>
 </section>
-
 <?php include 'templates/footer.php'?>
+
 </body>
 </html>
