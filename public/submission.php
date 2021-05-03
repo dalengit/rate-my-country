@@ -64,7 +64,6 @@ if (!empty($_POST)){
                     <select class="form-control" id="product-rating" name="country">
                         <option value='Ascension Island 🇦🇨'>Ascension Island 🇦🇨</option>
                         <option value='Andorra 🇦🇩'>Andorra 🇦🇩</option>
-                        <option value='United Arab Emirates 🇦🇪'>United Arab Emirates 🇦🇪</option>
                         <option value='Afghanistan 🇦🇫'>Afghanistan 🇦🇫</option>
                         <option value='Antigua & Barbuda 🇦🇬'>Antigua & Barbuda 🇦🇬</option>
                         <option value='Anguilla 🇦🇮'>Anguilla 🇦🇮</option>
@@ -131,8 +130,8 @@ if (!empty($_POST)){
                         <option value='Ecuador 🇪🇨'>Ecuador 🇪🇨</option>
                         <option value='Estonia 🇪🇪'>Estonia 🇪🇪</option>
                         <option value='Egypt 🇪🇬'>Egypt 🇪🇬</option>
-                        <option value='Western Sahara 🇪🇭'>Western Sahara 🇪🇭</option>
                         <option value='Eritrea 🇪🇷'>Eritrea 🇪🇷</option>
+                        <option value='England 🏴󠁧󠁢󠁥󠁮󠁧󠁿'>England 🏴󠁧󠁢󠁥󠁮󠁧󠁿</option>
                         <option value='Spain 🇪🇸'>Spain 🇪🇸</option>
                         <option value='Ethiopia 🇪🇹'>Ethiopia 🇪🇹</option>
                         <option value='European Union 🇪🇺'>European Union 🇪🇺</option>
@@ -143,7 +142,6 @@ if (!empty($_POST)){
                         <option value='Faroe Islands 🇫🇴'>Faroe Islands 🇫🇴</option>
                         <option value='France 🇫🇷'>France 🇫🇷</option>
                         <option value='Gabon 🇬🇦'>Gabon 🇬🇦</option>
-                        <option value='United Kingdom 🇬🇧'>United Kingdom 🇬🇧</option>
                         <option value='Grenada 🇬🇩'>Grenada 🇬🇩</option>
                         <option value='Georgia 🇬🇪'>Georgia 🇬🇪</option>
                         <option value='French Guiana 🇬🇫'>French Guiana 🇬🇫</option>
@@ -261,6 +259,7 @@ if (!empty($_POST)){
                         <option value='Russia 🇷🇺'>Russia 🇷🇺</option>
                         <option value='Rwanda 🇷🇼'>Rwanda 🇷🇼</option>
                         <option value='Saudi Arabia 🇸🇦'>Saudi Arabia 🇸🇦</option>
+                        <option value='Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿'>Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿</option>
                         <option value='Solomon Islands 🇸🇧'>Solomon Islands 🇸🇧</option>
                         <option value='Seychelles 🇸🇨'>Seychelles 🇸🇨</option>
                         <option value='Sudan 🇸🇩'>Sudan 🇸🇩</option>
@@ -300,9 +299,11 @@ if (!empty($_POST)){
                         <option value='Tanzania 🇹🇿'>Tanzania 🇹🇿</option>
                         <option value='Ukraine 🇺🇦'>Ukraine 🇺🇦</option>
                         <option value='Uganda 🇺🇬'>Uganda 🇺🇬</option>
+                        <option value='United Arab Emirates 🇦🇪'>United Arab Emirates 🇦🇪</option>
                         <option value='U.S. Outlying Islands 🇺🇲'>U.S. Outlying Islands 🇺🇲</option>
                         <option value='United Nations 🇺🇳'>United Nations 🇺🇳</option>
                         <option value='United States 🇺🇸'>United States 🇺🇸</option>
+                        <option value='United Kingdom 🇬🇧'>United Kingdom 🇬🇧</option>
                         <option value='Uruguay 🇺🇾'>Uruguay 🇺🇾</option>
                         <option value='Uzbekistan 🇺🇿'>Uzbekistan 🇺🇿</option>
                         <option value='Vatican City 🇻🇦'>Vatican City 🇻🇦</option>
@@ -312,7 +313,9 @@ if (!empty($_POST)){
                         <option value='U.S. Virgin Islands 🇻🇮'>U.S. Virgin Islands 🇻🇮</option>
                         <option value='Vietnam 🇻🇳'>Vietnam 🇻🇳</option>
                         <option value='Vanuatu 🇻🇺'>Vanuatu 🇻🇺</option>
+                        <option value='Wales 🏴󠁧󠁢󠁷󠁬󠁳󠁿'>Wales 🏴󠁧󠁢󠁷󠁬󠁳󠁿</option>
                         <option value='Wallis & Futuna 🇼🇫'>Wallis & Futuna 🇼🇫</option>
+                        <option value='Western Sahara 🇪🇭'>Western Sahara 🇪🇭</option>
                         <option value='Samoa 🇼🇸'>Samoa 🇼🇸</option>
                         <option value='Kosovo 🇽🇰'>Kosovo 🇽🇰</option>
                         <option value='Yemen 🇾🇪'>Yemen 🇾🇪</option>
@@ -320,9 +323,6 @@ if (!empty($_POST)){
                         <option value='South Africa 🇿🇦'>South Africa 🇿🇦</option>
                         <option value='Zambia 🇿🇲'>Zambia 🇿🇲</option>
                         <option value='Zimbabwe 🇿🇼'>Zimbabwe 🇿🇼</option>
-                        <option value='England 🏴󠁧󠁢󠁥󠁮󠁧󠁿'>England 🏴󠁧󠁢󠁥󠁮󠁧󠁿</option>
-                        <option value='Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿'>Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿</option>
-                        <option value='Wales 🏴󠁧󠁢󠁷󠁬󠁳󠁿'>Wales 🏴󠁧󠁢󠁷󠁬󠁳󠁿</option>
                     </select>
                 </div>
                 <div class="row mx-auto my-1">

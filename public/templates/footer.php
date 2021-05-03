@@ -1,10 +1,12 @@
 <footer class="p-4">
-        <div class="d-flex flex-row>
+    <div class="container">
+        <div class="d-flex flex-row">
             <a href="#"><img class="mx-3" src="../images/twitter-1239448.svg" alt="" height="28" width="28"></a>
             <a href="#"><img class="mx-3" src="../images/facebook-1239437.svg" alt="" height="28" width="28"></a>
             <a href="#"><img class="mx-3" src="../images/instagram-1239436.svg" alt="" height="28" width="28"></a>
             <aside class="mx-3 py-1">&#9400; MyCountry. All Rights Reserved</aside>
         </div>
+    </div>
 </footer>
 
 <!--CSS JS -->
