@@ -37,7 +37,7 @@ $checkins = $stmt->fetchAll(PDO::FETCH_CLASS, checkIn::class);
             </div>
             <div class="col-md-5 col-sm-4">
                 <div class="home-img">
-                    <img src="/project/images/marginalia-1196.png" alt="">
+                    <img src="/project/public/images/marginalia-1196.png" alt="">
                 </div>
             </div>
         </div>
@@ -49,7 +49,7 @@ $checkins = $stmt->fetchAll(PDO::FETCH_CLASS, checkIn::class);
         <div class="row">
             <div class="col-md-5 col-sm-4">
                 <div class="about-img">
-                    <img class="logo-image" src="/project/images/MyCountry.svg" alt="">
+                    <img class="logo-image" src="/project/public/images/MyCountry.svg" alt="">
                 </div>
             </div>
             <div class="col-md-7">

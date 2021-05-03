@@ -39,7 +39,7 @@ $checkins = $stmt->fetchAll(PDO::FETCH_CLASS, checkIn::class);
     <div class="row m-5 px-5">
         <?php if(empty($checkins)){ ?>
             <div class="col-md-6 mx-auto my-2 text-center">
-                <img src="../images/sadicon.svg" alt="" width="110" height=110">
+                <img src="images/sadicon.svg" alt="" width="110" height=110">
                 <h4 class="my-3">Uh oh... looks like there are no reviews for this country.</h4>
                 <p>Why don't you leave one <a class="link-dark" href="submission.php">here!</a></p>
             </div>
