@@ -70,7 +70,7 @@ $checkins = $stmt->fetchAll(PDO::FETCH_CLASS, checkIn::class);
         <div class="row">
             <h1 class="py-2">Recent Reviews</h1>
         <?php foreach ($checkins as $i => $checkIn): ?>
-            <div class="card my-5 p-4 border-2 mx-auto" style="width: 20rem; height: 20rem;">
+            <div class="card my-5 p-4 border-2 mx-auto" style="width: 20rem; height: auto;">
                 <h3 class="py-2"><?= $checkIn->country; ?></h3>
                 <p>The food is <strong><?= $checkIn->food; ?></strong></p>
                 <p>The weather is <strong><?= $checkIn->weather; ?></strong></p>
