@@ -6,17 +6,19 @@ $productAddedSuccess = false;
 //Submit to DB
 if (!empty($_POST)){
 
-    $name = $_POST['name'];
+    $name = filter($_POST['name']);
     $productId = $_POST['productid'];
     $country = $_POST['country'];
     $food = $_POST['food'];
     $weather = $_POST['weather'];
     $people = $_POST['people'];
-    $review = $_POST['review'];
+    $review = filter($_POST['review']);
     $overall = $_POST['overall'];
 
 
     $stmt = $conn->prepare('INSERT INTO checkins (name, productid, country, food, weather, people, review, overall) VALUES (:name, :productid, :country, :food, :weather, :people, :review, :overall)');
+
+    $stmt->bindParam(':name', $name, PDO::PARAM_STR, 1000);
 
     $stmt->execute([
         'name' => $name,
@@ -31,6 +33,14 @@ if (!empty($_POST)){
 
     $productAddedSuccess = true;
 }
+
+function filter($i){
+    $i = trim($i);
+    $i = stripslashes($i);
+    $i = htmlspecialchars($i);
+    return $i;
+}
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
