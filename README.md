@@ -1,4 +1,4 @@
-# Rate My Mug
+# Rate My Country
 
 ### A PHP Review Web Application
 
