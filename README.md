@@ -9,6 +9,8 @@ The website utilizes:
 - Frontend : HTML, CSS, JS, Bootstrap.
 - Backend : PHP, MySQL. 
 
+Website can be seen at : https://rate-my-country.herokuapp.com
+
 Features
 ------
 - Custom theme created in Bootstrap
